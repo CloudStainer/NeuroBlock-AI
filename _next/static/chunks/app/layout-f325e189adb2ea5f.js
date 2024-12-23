@@ -348,7 +348,7 @@
           links: [
             { name: "Telegram", url: "https://t.me/" },
             { name: "Twitter", url: "https://x.com/" },
-            { name: "Docs", url: "https://docs.gigabots.ai" },
+            { name: "Docs", url: "https://alexeys-organization-9.gitbook.io/neuroblock_ai" },
           ],
         },
       ];
@@ -757,10 +757,10 @@
                           title: "Product",
                           links: [
                             {
-                              href: "https://docs.gigabots.ai",
+                              href: "https://alexeys-organization-9.gitbook.io/neuroblock_ai",
                               label: "About Platform",
                             },
-                            { href: "#", label: "GigaVault", comingSoon: !0 },
+                            { href: "#", label: "GigaStaking", comingSoon: !0 },
                           ],
                         }),
                         (0, s.jsx)(c, {
@@ -851,7 +851,7 @@
                                 label: "Twitter",
                               },
                               {
-                                href: "https://docs.gigabots.ai",
+                                href: "https://alexeys-organization-9.gitbook.io/neuroblock_ai",
                                 label: "Docs",
                               },
                             ],
