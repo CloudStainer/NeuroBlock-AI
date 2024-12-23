@@ -468,7 +468,7 @@
                         animate: "visible",
                         children: (0, s.jsx)(a.SecondaryButton, {
                           className: "lg:w-full",
-                          children: "Staking App",
+                          children: "Launch app",
                         }),
                       }),
                     ],

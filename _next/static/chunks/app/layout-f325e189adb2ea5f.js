@@ -779,7 +779,7 @@
                       children: [
                         (0, s.jsx)(n.PrimaryButton, { children: "buy NUBAI" }),
                         (0, s.jsx)(n.SecondaryButton, {
-                          children: "Staking App",
+                          children: "Launch app",
                         }),
                       ],
                     }),
@@ -851,7 +851,7 @@
                               }),
                               (0, s.jsx)(n.SecondaryButton, {
                                 className: "lg:w-full",
-                                children: "Staking App",
+                                children: "Launch app",
                               }),
                             ],
                           }),
