@@ -44,11 +44,11 @@
                   c().className,
                   "text-fluid-h4 font-bold text-center mb-6"
                 ),
-                children: "GIGA TOKEN",
+                children: "NUBAI Token",
               }),
               (0, s.jsx)("p", {
                 className: "text-center text-lg mb-4",
-                children: "Utility Token of the GIGACONOMY",
+                children: "Utility Token of the NUBAIConomy",
               }),
               (0, s.jsx)("p", {
                 className: "text-center text-primary text-lg mb-6",
@@ -58,20 +58,7 @@
                 className: "flex justify-center items-center mb-6 gap-3",
                 children: [
                   (0, s.jsx)(a.default, {
-                    href: "https://t.me/OfficialGigaTraderBot?start=site_0xcB2B9B5b136Dc29fEB0548dFF315021B9b6c2bA0",
-                    target: "_blank",
-                    className:
-                      "w-20 h-20 flex justify-center items-center overflow-hidden",
-                    children: (0, s.jsx)(d.default, {
-                      width: 90,
-                      height: 90,
-                      priority: !0,
-                      src: "/buy-giga-1.svg",
-                      alt: "Buy Giga on Telegram",
-                    }),
-                  }),
-                  (0, s.jsx)(a.default, {
-                    href: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcB2B9B5b136Dc29fEB0548dFF315021B9b6c2bA0",
+                    href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
                     target: "_blank",
                     className:
                       "w-20 h-20 flex justify-center items-center overflow-hidden mb-3",
@@ -80,11 +67,11 @@
                       height: 90,
                       priority: !0,
                       src: "/buy-giga-2.svg",
-                      alt: "Buy Giga on UniSwap",
+                      alt: "Buy NUBAI on UniSwap",
                     }),
                   }),
                   (0, s.jsx)(a.default, {
-                    href: "https://www.dextools.io/app/en/ether/pair-explorer/0x0936ff9f14ecdda584478d06c50f8493cbb7a4c5?t=1718732005319",
+                    href: "https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000",
                     target: "_blank",
                     className:
                       "w-20 h-20 flex justify-center items-center overflow-hidden",
@@ -93,7 +80,7 @@
                       height: 60,
                       priority: !0,
                       src: "/buy-giga-3.svg",
-                      alt: "Buy Giga on Dextools",
+                      alt: "Buy NUBAI on Dextools",
                     }),
                   }),
                 ],
@@ -108,7 +95,7 @@
                   (0, s.jsx)("button", {
                     onClick: () => {
                       navigator.clipboard.writeText(
-                        "0xcB2B9B5b136Dc29fEB0548dFF315021B9b6c2bA0"
+                        "0x00000000000000000000000000000000000000"
                       ),
                         h(!0),
                         setTimeout(() => h(!1), 2e3);
@@ -122,7 +109,7 @@
                 className: "flex justify-center items-center mb-6 gap-2",
                 children: (0, s.jsx)("p", {
                   className: "text-center text-sm text-primary",
-                  children: "0xcB2B9B5b136Dc29fEB0548dFF315021B9b6c2bA0",
+                  children: "0x00000000000000000000000000000000000000",
                 }),
               }),
               l &&
@@ -137,7 +124,7 @@
                   " ",
                   (0, s.jsx)(a.default, {
                     className: "text-primary",
-                    href: "https://t.me/GigaBotsCommunity",
+                    href: "https://t.me/",
                     target: "_blank",
                     children: "Community",
                   }),
@@ -446,7 +433,7 @@
                     initial: "hidden",
                     animate: "visible",
                     children:
-                      "GIGABOTS combines advanced AI signals and powerful trading features to give you the edge you need to succeed in on-chain markets.",
+                      "NeuroBlock AI combines advanced AI signals and powerful trading features to give you the edge you need to succeed in on-chain markets.",
                   }),
                   (0, s.jsxs)("div", {
                     className: "flex mt-14 gap-6 xs:flex-col",
@@ -457,18 +444,10 @@
                         animate: "visible",
                         children: (0, s.jsx)(a.PrimaryButton, {
                           className: "lg:w-full",
-                          children: "Buy GIGA",
+                          children: "Buy NUBAI",
                         }),
                       }),
-                      (0, s.jsx)(d.E.div, {
-                        variants: x(1),
-                        initial: "hidden",
-                        animate: "visible",
-                        children: (0, s.jsx)(a.SecondaryButton, {
-                          className: "lg:w-full",
-                          children: "Start Trading",
-                        }),
-                      }),
+                      
                     ],
                   }),
                 ],
@@ -482,7 +461,7 @@
                   src: "/gigabots-hero.png",
                   width: 409,
                   height: 590,
-                  alt: "GIGABOTS Hero",
+                  alt: "NeuroBlock AI Hero",
                 }),
               }),
             ],
@@ -768,82 +747,14 @@
       let d = { default: 3, 1100: 2, 700: 1 };
       function m() {
         return (0, s.jsx)(n.default, {
-          title: "What Our Users Say",
+          title: "Our next provide?",
           titleClassName: "sm:max-w-[300px]",
           description:
-            "Gigabots is the preferred choice for smart traders, regardless of your experience level.",
+            "We are going to let users get our service via Telegram Bots soon.",
           descriptionClassName: "max-w-[500px] text-center",
           vector: (0, s.jsx)(o.gV, {}),
           vectorPosition: "bottom-[2%] right-[20%]",
-          children: (0, s.jsx)(l.Z, {
-            breakpointCols: d,
-            className: "my-masonry-grid",
-            columnClassName: "my-masonry-grid_column",
-            children: a.pb.map((e, t) =>
-              (0, s.jsxs)(
-                "div",
-                {
-                  className:
-                    "bg-black border border-secondary p-6 rounded-lg text-white flex flex-col",
-                  children: [
-                    (0, s.jsx)("div", {
-                      className: "mb-8",
-                      children: (0, s.jsx)(r.default, {
-                        src: "/stars.svg",
-                        width: 116,
-                        height: 19,
-                        alt: "Rating",
-                      }),
-                    }),
-                    (0, s.jsx)("p", {
-                      className: "mb-8 text-left tracking-widest text-lg",
-                      children: e.text,
-                    }),
-                    (0, s.jsxs)("div", {
-                      className: "flex items-center justify-between",
-                      children: [
-                        (0, s.jsxs)("div", {
-                          className: "flex items-center",
-                          children: [
-                            (0, s.jsx)("div", {
-                              className:
-                                "w-14 h-14 bg-gray-700 rounded-full overflow-hidden flex items-center justify-center",
-                              children: (0, s.jsx)(r.default, {
-                                alt: e.name,
-                                src: "/testimonials/".concat(e.image.src),
-                                width: e.image.width,
-                                height: e.image.height,
-                              }),
-                            }),
-                            (0, s.jsxs)("div", {
-                              className: "ml-4 text-left",
-                              children: [
-                                (0, s.jsx)("p", {
-                                  className: "font-bold",
-                                  children: e.name,
-                                }),
-                                (0, s.jsx)("p", {
-                                  className: "text-gray-400",
-                                  children: e.username,
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
-                        (0, s.jsx)(c.default, {
-                          href: e.link,
-                          target: "_blank",
-                          className: "ml-4",
-                          children: (0, s.jsx)(e.icon, {}),
-                        }),
-                      ],
-                    }),
-                  ],
-                },
-                t
-              )
-            ),
-          }),
+          children: (0, s.jsx)(l.Z, {}),
         });
       }
     },
@@ -920,16 +831,6 @@
                                 i
                               )
                             ),
-                          }),
-                          (0, s.jsx)(h.default, {
-                            href: "https://t.me/OfficialGigaTraderBot",
-                            target: "_blank",
-                            className: (0, d.cn)(
-                              "mt-4 px-4 py-3 font-normal border hover:bg-primary hover:text-black transition-colors duration-300 text-center border-primary",
-                              e.isHighlighted &&
-                                "!bg-primary !text-black  !font-bold"
-                            ),
-                            children: "Get Access",
                           }),
                         ],
                       }),
@@ -1174,9 +1075,9 @@
       function f() {
         let e = (0, o.Z)(1090);
         return (0, s.jsx)(r.default, {
-          title: "Exclusive Access {.n} for GIGA Holders",
+          title: "Exclusive Access {.n} for NUBAI Holders",
           description:
-            "GIGA Token unlocks access to exclusive Signals and Features. {.n} By restricting access, we ensure GIGA holders will be able to maintain an ongoing advantage in the market.",
+            "NUBAI Token unlocks access to exclusive Signals and Features. {.n} By restricting access, we ensure NUBAI holders will be able to maintain an ongoing advantage in the market.",
           vector: (0, s.jsx)(a.SI, {}),
           vectorPosition: "bottom-[2%] left-[25%]",
           descriptionClassName: "max-w-[680px]",
@@ -1308,8 +1209,8 @@
           {
             title: "Rookie",
             rank: 1,
-            description: "Entry-level access to {.n} Gigabots.",
-            access: "10,000 GIGA",
+            description: "Entry-level access to {.n} NeuroBlock AI.",
+            access: "10,000 NUBAI",
             smartOrders: !0,
             signals: 5,
             customStrategies: !0,
@@ -1323,7 +1224,7 @@
             title: "Skilled",
             rank: 2,
             description: "Enhanced signals and {.n} custom strategies.",
-            access: "100,000 GIGA",
+            access: "100,000 NUBAI",
             smartOrders: !0,
             signals: 14,
             customStrategies: !0,
@@ -1338,7 +1239,7 @@
             title: "Chad",
             rank: 3,
             description: "Full access to all {.n} signals and features",
-            access: "250,000 GIGA",
+            access: "250,000 NUBAI",
             smartOrders: !0,
             signals: 25,
             customStrategies: !0,
@@ -1354,7 +1255,7 @@
             rank: 4,
             description:
               "Full access to all {.n} signals and features + {.n} revenue share",
-            access: "500,000 GIGA",
+            access: "500,000 NUBAI",
             smartOrders: !0,
             signals: 25,
             customStrategies: !0,
@@ -1412,34 +1313,34 @@
             },
           },
           {
-            text: "GigaBots speed up the finding, checking, and buying of tokens. I would say it is 10x faster and easier than manually searching for a token to then …. buying on DEX, with so many wallet interactions in between.",
+            text: "NeuroBlock AI speed up the finding, checking, and buying of tokens. I would say it is 10x faster and easier than manually searching for a token to then …. buying on DEX, with so many wallet interactions in between.",
             name: "Rauzas",
             username: "@0xRauzas",
-            link: "https://x.com/0xRauzas",
+            link: "https://x.com/",
             icon: n,
             image: { width: 400, height: 400, src: "testimonial-6.jpg" },
           },
           {
-            text: "I urge all to try @Gigabots_ai. The trader bot really is game changer for me, I love it - makes trading on the go so much easier… and GigaDev just keeps making improvements, it gets better every single day!",
+            text: "I urge all to try @NeuroBlock AI_ai. The trader bot really is game changer for me, I love it - makes trading on the go so much easier… and GigaDev just keeps making improvements, it gets better every single day!",
             name: "Kezz \uD83D\uDD2E\uD83D\uDC8E",
             username: "@Alephkezz",
-            link: "https://x.com/Alephkezz",
+            link: "https://x.com/",
             icon: n,
             image: { width: 400, height: 400, src: "testimonial-3.jpg" },
           },
           {
-            text: "Personally, I’ve used other bots and so far @Gigabots_ai is my favorite! Accurate, systematic and efficient. A trial should convince you.",
+            text: "Personally, I’ve used other bots and so far @NeuroBlock AI_ai is my favorite! Accurate, systematic and efficient. A trial should convince you.",
             name: "GoddessWriter✨",
             username: "@Goddesswriter1",
-            link: "https://x.com/Goddesswriter1",
+            link: "https://x.com/",
             icon: n,
             image: { width: 400, height: 400, src: "testimonial-4.jpg" },
           },
           {
-            text: "What sets #Gigabots apart is their ability to automate strategies, set smart entry and exit conditions, constantly scan the chain for opportunities, and test strategies for success.",
+            text: "What sets #NeuroBlock AI apart is their ability to automate strategies, set smart entry and exit conditions, constantly scan the chain for opportunities, and test strategies for success.",
             name: "Sunny crown \uD83D\uDC51\uD83D\uDCCA",
             username: "@Samuelsimonsun1",
-            link: "https://x.com/Samuelsimonsun1",
+            link: "https://x.com/",
             icon: n,
             image: { width: 400, height: 400, src: "testimonial-5.jpg" },
           },
@@ -1447,7 +1348,7 @@
             text: "Proven Performance … a call of x600 and a consistency rate over 51%, Giga Signals outperforms the competition….In Just 7 days my on-chain trades have Skyrocketed.",
             name: "Defi Shinobi\uD83E\uDD77",
             username: "@DefiShino",
-            link: "https://x.com/DefiShino",
+            link: "https://x.com/",
             image: { width: 400, height: 400, src: "testimonial-2.jpg" },
             icon: n,
           },

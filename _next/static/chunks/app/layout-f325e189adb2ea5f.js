@@ -23,7 +23,7 @@
         return (0, s.jsx)("div", {
           className: "w-full bg-primary font-bold text-black py-2 text-center",
           children: (0, s.jsx)("span", {
-            children: "Introducing GIGABOTS Version 2 \uD83C\uDF89 ",
+            children: "Introducing NeuroBlock AI Version 2 \uD83C\uDF89 ",
           }),
         });
       }
@@ -62,11 +62,11 @@
                   c().className,
                   "text-fluid-h4 font-bold text-center mb-6"
                 ),
-                children: "GIGA TOKEN",
+                children: "NUBAI Token",
               }),
               (0, s.jsx)("p", {
                 className: "text-center text-lg mb-4",
-                children: "Utility Token of the GIGACONOMY",
+                children: "Utility Token of the NUBAIConomy",
               }),
               (0, s.jsx)("p", {
                 className: "text-center text-primary text-lg mb-6",
@@ -76,20 +76,7 @@
                 className: "flex justify-center items-center mb-6 gap-3",
                 children: [
                   (0, s.jsx)(n.default, {
-                    href: "https://t.me/OfficialGigaTraderBot?start=site_0xcB2B9B5b136Dc29fEB0548dFF315021B9b6c2bA0",
-                    target: "_blank",
-                    className:
-                      "w-20 h-20 flex justify-center items-center overflow-hidden",
-                    children: (0, s.jsx)(d.default, {
-                      width: 90,
-                      height: 90,
-                      priority: !0,
-                      src: "/buy-giga-1.svg",
-                      alt: "Buy Giga on Telegram",
-                    }),
-                  }),
-                  (0, s.jsx)(n.default, {
-                    href: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcB2B9B5b136Dc29fEB0548dFF315021B9b6c2bA0",
+                    href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x00000000000000000000000000000000000000",
                     target: "_blank",
                     className:
                       "w-20 h-20 flex justify-center items-center overflow-hidden mb-3",
@@ -98,11 +85,11 @@
                       height: 90,
                       priority: !0,
                       src: "/buy-giga-2.svg",
-                      alt: "Buy Giga on UniSwap",
+                      alt: "Buy NUBAI on UniSwap",
                     }),
                   }),
                   (0, s.jsx)(n.default, {
-                    href: "https://www.dextools.io/app/en/ether/pair-explorer/0x0936ff9f14ecdda584478d06c50f8493cbb7a4c5?t=1718732005319",
+                    href: "https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000",
                     target: "_blank",
                     className:
                       "w-20 h-20 flex justify-center items-center overflow-hidden",
@@ -111,7 +98,7 @@
                       height: 60,
                       priority: !0,
                       src: "/buy-giga-3.svg",
-                      alt: "Buy Giga on Dextools",
+                      alt: "Buy NUBAI on Dextools",
                     }),
                   }),
                 ],
@@ -126,7 +113,7 @@
                   (0, s.jsx)("button", {
                     onClick: () => {
                       navigator.clipboard.writeText(
-                        "0xcB2B9B5b136Dc29fEB0548dFF315021B9b6c2bA0"
+                        "0x00000000000000000000000000000000000000"
                       ),
                         u(!0),
                         setTimeout(() => u(!1), 2e3);
@@ -140,7 +127,7 @@
                 className: "flex justify-center items-center mb-6 gap-2",
                 children: (0, s.jsx)("p", {
                   className: "text-center text-sm text-primary",
-                  children: "0xcB2B9B5b136Dc29fEB0548dFF315021B9b6c2bA0",
+                  children: "0x00000000000000000000000000000000000000",
                 }),
               }),
               l &&
@@ -155,7 +142,7 @@
                   " ",
                   (0, s.jsx)(n.default, {
                     className: "text-primary",
-                    href: "https://t.me/GigaBotsCommunity",
+                    href: "https://t.me/",
                     target: "_blank",
                     children: "Community",
                   }),
@@ -306,75 +293,62 @@
         return (0, s.jsxs)("div", {
           className: "overflow-y-auto",
           children: [
-            'This Agreement, known as the GIGABOT Services Agreement, establishes a legally binding contract between you and Gigabot. It governs your usage of the GIGABOT online products and services, collectively referred to as "GIGABOT Services." The parties involved in this Agreement are GIGABOT and the services they provide, including web applications, web dapps, Telegram applications, Telegram channels, and any applications created and distributed by GIGABOT, referred to as "GIGABOT Services." The users of these services and applications in web, Telegram, and other platforms are referred to as "users." By utilizing the GIGABOT Services, you agree to adhere to the terms and conditions outlined in this Agreement, as well as the disclaimers provided herein. It is advisable to carefully review this Agreement before engaging in any GIGABOT Services. ',
+            'This Agreement, known as the NeuroBlock Services Agreement, establishes a legally binding contract between you and NeuroBlock. It governs your usage of the NeuroBlock online products and services, collectively referred to as "NeuroBlock Services." The parties involved in this Agreement are NeuroBlock and the services they provide, including web applications, web dapps, Telegram applications, Telegram channels, and any applications created and distributed by NeuroBlock, referred to as "NeuroBlock Services." The users of these services and applications in web, Telegram, and other platforms are referred to as "users." By utilizing the NeuroBlock Services, you agree to adhere to the terms and conditions outlined in this Agreement, as well as the disclaimers provided herein. It is advisable to carefully review this Agreement before engaging in any NeuroBlock Services. ',
             (0, s.jsx)("br", {}),
             "‍",
             (0, s.jsx)("br", {}),
             "DISCLAIMER OF WARRANTIES AND REPRESENTATIONS",
             (0, s.jsx)("br", {}),
-            'The GIGABOT Services and all of its contents are provided on an "as is" and "as available" basis, without any warranties or representations of any kind, whether express or implied. GIGABOT acts solely as a distributor and not a publisher of content supplied by third parties. Therefore, GIGABOT does not exercise any editorial control over such content and makes no warranty or representation as to its accuracy, reliability, or currency. This includes any information, content, service, or merchandise provided through or accessible via the GIGABOT Services. Specifically, GIGABOT disclaims all warranties and representations relating to any content transmitted on or in connection with the GIGABOT Services or on sites that may appear as links on the GIGABOT Services, or in the products provided as a part of, or otherwise in connection with, the GIGABOT Services. This includes any warranties of merchantability, fitness for a particular purpose, or non-infringement of third-party rights. No advice or information provided by GIGABOT, its affiliates, employees, officers, directors, agents, or similar parties, whether oral or written, shall create any warranty. The price and availability of any products or services offered on the GIGABOT Services are subject to change without notice. Additionally, GIGABOT does not warrant that the GIGABOT Services will be uninterrupted, uncorrupted, timely, or error-free. By utilizing the GIGABOT Services, you agree that GIGABOT, its affiliates, employees, officers, directors, agents, or similar parties, shall not be liable for any damages whatsoever arising out of or relating to your use of the GIGABOT Services. These damages include, without limitation, direct, indirect, incidental, special, consequential, or punitive damages, whether under a contract, tort, or any other theory of liability, even if GIGABOT has been advised of the possibility of such damages. ',
+            'The NeuroBlock Services and all of its contents are provided on an "as is" and "as available" basis, without any warranties or representations of any kind, whether express or implied. NeuroBlock acts solely as a distributor and not a publisher of content supplied by third parties. Therefore, NeuroBlock does not exercise any editorial control over such content and makes no warranty or representation as to its accuracy, reliability, or currency. This includes any information, content, service, or merchandise provided through or accessible via the NeuroBlock Services. Specifically, NeuroBlock disclaims all warranties and representations relating to any content transmitted on or in connection with the NeuroBlock Services or on sites that may appear as links on the NeuroBlock Services, or in the products provided as a part of, or otherwise in connection with, the NeuroBlock Services. This includes any warranties of merchantability, fitness for a particular purpose, or non-infringement of third-party rights. No advice or information provided by NeuroBlock, its affiliates, employees, officers, directors, agents, or similar parties, whether oral or written, shall create any warranty. The price and availability of any products or services offered on the NeuroBlock Services are subject to change without notice. Additionally, NeuroBlock does not warrant that the NeuroBlock Services will be uninterrupted, uncorrupted, timely, or error-free. By utilizing the NeuroBlock Services, you agree that NeuroBlock, its affiliates, employees, officers, directors, agents, or similar parties, shall not be liable for any damages whatsoever arising out of or relating to your use of the NeuroBlock Services. These damages include, without limitation, direct, indirect, incidental, special, consequential, or punitive damages, whether under a contract, tort, or any other theory of liability, even if NeuroBlock has been advised of the possibility of such damages. ',
             (0, s.jsx)("br", {}),
             "‍",
             (0, s.jsx)("br", {}),
             "LIMITED LIABILITY",
             (0, s.jsx)("br", {}),
-            'The use of GIGABOT services is solely at the user\'s own risk. GIGABOT provides materials on its services on an "as is" and "as available" basis, without any express or implied representation or warranty, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. GIGABOT does not guarantee the accuracy, completeness, reliability, suitability, or availability of any information or materials on its services or related to such information or materials through external sites or channels. The materials and information provided may contain errors or inaccuracies and are subject to change or update without notice. GIGABOT shall not be held liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from or in any way related to the use of its services. This includes, but is not limited to, any errors or omissions in any content, or any loss or damage of any kind incurred as a result of using any content (or product) posted, transmitted, or otherwise made available through the GIGABOT service, even if the possibility of such damages has been advised. Such damages may include, but are not limited to, loss of use, loss of profits, or loss of data. The user acknowledges and agrees that GIGABOT is not responsible for the content or services of third-party sites or channels. Links to such sites or channels are provided for convenience only, and the user accesses them at their own risk. GIGABOT does not provide any representation or warranty regarding the accuracy or reliability of information or materials found on such sites or channels. Unless otherwise mandated by applicable law, GIGABOT, its affiliates, officers, directors, employees, agents, or licensors shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from or in connection with the use of its services or materials. The limitations and exclusions of liability stated herein shall apply regardless of whether GIGABOT was aware of or should have been aware of the possibility of such damages, and irrespective of the form of action, whether in contract, tort, or otherwise. By using GIGABOT services, the user agrees to release and indemnify GIGABOT, its affiliates, officers, directors, employees, agents, and licensors from any and all claims, demands, damages, liabilities, and expenses (including reasonable attorneys\' fees) arising from or in connection with the use of its services. ',
+            'The use of NeuroBlock Services is solely at the user\'s own risk. NeuroBlock provides materials on its services on an "as is" and "as available" basis, without any express or implied representation or warranty, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. NeuroBlock does not guarantee the accuracy, completeness, reliability, suitability, or availability of any information or materials on its services or related to such information or materials through external sites or channels. The materials and information provided may contain errors or inaccuracies and are subject to change or update without notice. NeuroBlock shall not be held liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from or in any way related to the use of its services. This includes, but is not limited to, any errors or omissions in any content, or any loss or damage of any kind incurred as a result of using any content (or product) posted, transmitted, or otherwise made available through the NeuroBlock Service, even if the possibility of such damages has been advised. Such damages may include, but are not limited to, loss of use, loss of profits, or loss of data. The user acknowledges and agrees that NeuroBlock is not responsible for the content or services of third-party sites or channels. Links to such sites or channels are provided for convenience only, and the user accesses them at their own risk. NeuroBlock does not provide any representation or warranty regarding the accuracy or reliability of information or materials found on such sites or channels. Unless otherwise mandated by applicable law, NeuroBlock, its affiliates, officers, directors, employees, agents, or licensors shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from or in connection with the use of its services or materials. The limitations and exclusions of liability stated herein shall apply regardless of whether NeuroBlock was aware of or should have been aware of the possibility of such damages, and irrespective of the form of action, whether in contract, tort, or otherwise. By using NeuroBlock Services, the user agrees to release and indemnify NeuroBlock, its affiliates, officers, directors, employees, agents, and licensors from any and all claims, demands, damages, liabilities, and expenses (including reasonable attorneys\' fees) arising from or in connection with the use of its services. ',
             (0, s.jsx)("br", {}),
             (0, s.jsx)("br", {}),
             "RISKS ASSOCIATED WITH OUR SOFTWARE USAGE",
             (0, s.jsx)("br", {}),
-            "GIGABOT offers software and services that facilitate cryptocurrency transactions. However, it is important for users to understand that certain risks are inherent in using such technology. By accessing and utilizing GIGABOT's services, users acknowledge and agree that GIGABOT cannot be held responsible for any losses, damages, or claims arising from events falling under the following categories: User mistakes: Users are solely responsible for their actions and are expected to exercise caution and diligence when using GIGABOT-related software and services. GIGABOT will not be held liable for losses resulting from user mistakes, including forgotten passwords, payments sent to incorrect GIGABOT addresses, or accidental deletion of wallets. Software issues: Despite our efforts to provide reliable and secure software and services, technical glitches and software problems can occur. GIGABOT will not be responsible for losses resulting from software issues on the website or any GIGABOT-related software, such as corrupted wallet files, incorrectly executed transactions, vulnerabilities in cryptographic libraries, or malware affecting the website or software. Technical failures: Users are responsible for maintaining the security and integrity of their hardware and storage devices. GIGABOT will not be liable for losses caused by technical failures in user hardware or storage devices, such as data loss due to faulty or damaged devices. Security vulnerabilities: While GIGABOT takes measures to safeguard the security and integrity of its services, security breaches and unauthorized access may occur. GIGABOT will not be held accountable for losses resulting from security vulnerabilities experienced by users, such as unauthorized access to wallets or accounts. Third-party actions or omissions: GIGABOT may rely on third-party service providers for certain services, and incidents such as bankruptcy, information security breaches, or fraudulent activities by third parties can happen. GIGABOT will not be liable for losses arising from the actions or omissions of third parties or events involving third parties. By using GIGABOT's services, users acknowledge and accept the inherent risks associated with cryptocurrency transactions. Users release GIGABOT from any liability related to such risks. COPYRIGHT DISCLAIMER This Copyright Disclaimer (referred to as the \"Disclaimer\") outlines the terms and conditions governing the usage of materials owned by GIGABOT. All intellectual property rights pertaining to the materials are exclusively held by GIGABOT. Unauthorized copying, distribution, or any other use of the materials without express written permission from GIGABOT is strictly prohibited unless otherwise permitted by mandatory law (such as the right to quote) or expressly stated for specific materials. ",
+            "NeuroBlock offers software and services that facilitate cryptocurrency transactions. However, it is important for users to understand that certain risks are inherent in using such technology. By accessing and utilizing NeuroBlock's services, users acknowledge and agree that NeuroBlock cannot be held responsible for any losses, damages, or claims arising from events falling under the following categories: User mistakes: Users are solely responsible for their actions and are expected to exercise caution and diligence when using NeuroBlock-related software and services. NeuroBlock will not be held liable for losses resulting from user mistakes, including forgotten passwords, payments sent to incorrect NeuroBlock addresses, or accidental deletion of wallets. Software issues: Despite our efforts to provide reliable and secure software and services, technical glitches and software problems can occur. NeuroBlock will not be responsible for losses resulting from software issues on the website or any NeuroBlock-related software, such as corrupted wallet files, incorrectly executed transactions, vulnerabilities in cryptographic libraries, or malware affecting the website or software. Technical failures: Users are responsible for maintaining the security and integrity of their hardware and storage devices. NeuroBlock will not be liable for losses caused by technical failures in user hardware or storage devices, such as data loss due to faulty or damaged devices. Security vulnerabilities: While NeuroBlock takes measures to safeguard the security and integrity of its services, security breaches and unauthorized access may occur. NeuroBlock will not be held accountable for losses resulting from security vulnerabilities experienced by users, such as unauthorized access to wallets or accounts. Third-party actions or omissions: NeuroBlock may rely on third-party service providers for certain services, and incidents such as bankruptcy, information security breaches, or fraudulent activities by third parties can happen. NeuroBlock will not be liable for losses arising from the actions or omissions of third parties or events involving third parties. By using NeuroBlock's services, users acknowledge and accept the inherent risks associated with cryptocurrency transactions. Users release NeuroBlock from any liability related to such risks. COPYRIGHT DISCLAIMER This Copyright Disclaimer (referred to as the \"Disclaimer\") outlines the terms and conditions governing the usage of materials owned by NeuroBlock. All intellectual property rights pertaining to the materials are exclusively held by NeuroBlock. Unauthorized copying, distribution, or any other use of the materials without express written permission from NeuroBlock is strictly prohibited unless otherwise permitted by mandatory law (such as the right to quote) or expressly stated for specific materials. ",
             (0, s.jsx)("br", {}),
             "‍",
             (0, s.jsx)("br", {}),
             "ERRORS AND OMISSIONS DISCLAIMER",
             (0, s.jsx)("br", {}),
-            'This Errors and Omissions Disclaimer (referred to as the "Disclaimer") establishes the terms and conditions for using the Service provided by GIGABOT. We do not provide any warranties or guarantees, and we are not responsible for any inaccuracies, errors, or omissions in the Service. Under no circumstances shall GIGABOT be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in contract, negligence, or any other tort, arising from or in connection with the use of the Service or its contents. We reserve the right to add, delete, or modify the contents of the Service at any time without prior notice. ',
+            'This Errors and Omissions Disclaimer (referred to as the "Disclaimer") establishes the terms and conditions for using the Service provided by NeuroBlock. We do not provide any warranties or guarantees, and we are not responsible for any inaccuracies, errors, or omissions in the Service. Under no circumstances shall NeuroBlock be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in contract, negligence, or any other tort, arising from or in connection with the use of the Service or its contents. We reserve the right to add, delete, or modify the contents of the Service at any time without prior notice. ',
             (0, s.jsx)("br", {}),
             (0, s.jsx)("br", {}),
             "LINKS TO OTHER WEBSITES/CHANNELS DISCLAIMER",
             (0, s.jsx)("br", {}),
-            'This Links to Other Websites/Channels Disclaimer (referred to as the "Disclaimer") applies to the Service provided by GIGABOT. The Service may include links to websites, channels, and groups that are not operated or controlled by GIGABOT. We are not responsible for the content, accuracy, or opinions expressed in such websites, channels, and groups, and they are not investigated, monitored, or verified for accuracy or completeness by GIGABOT. When you navigate to another website, channel, or group through a link on the Service, our Privacy Policy no longer applies. Your browsing and interaction on any other website, including those linked on our platform, are subject to the rules and policies of that website. These third parties may use their own cookies or other methods to collect information about you. If you click on a third-party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy and Terms of every site you visit. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services. AMENDMENT OF DISCLAIMER GIGABOT reserves the right to modify, amend, or update this Disclaimer at any time to accurately reflect our Service and policies. Such changes will be prominently posted on our website, and your continued use of the Service constitutes your acceptance of the updated Disclaimer. If you do not wish to be bound by any updated terms, you may delete your account.',
+            'This Links to Other Websites/Channels Disclaimer (referred to as the "Disclaimer") applies to the Service provided by NeuroBlock. The Service may include links to websites, channels, and groups that are not operated or controlled by NeuroBlock. We are not responsible for the content, accuracy, or opinions expressed in such websites, channels, and groups, and they are not investigated, monitored, or verified for accuracy or completeness by NeuroBlock. When you navigate to another website, channel, or group through a link on the Service, our Privacy Policy no longer applies. Your browsing and interaction on any other website, including those linked on our platform, are subject to the rules and policies of that website. These third parties may use their own cookies or other methods to collect information about you. If you click on a third-party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy and Terms of every site you visit. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services. AMENDMENT OF DISCLAIMER NeuroBlock reserves the right to modify, amend, or update this Disclaimer at any time to accurately reflect our Service and policies. Such changes will be prominently posted on our website, and your continued use of the Service constitutes your acceptance of the updated Disclaimer. If you do not wish to be bound by any updated terms, you may delete your account.',
             " ",
             (0, s.jsx)("br", {}),
             (0, s.jsx)("br", {}),
             "YOUR CONSENT TO DISCLAIMER",
             (0, s.jsx)("br", {}),
-            "By accessing or registering an account with GIGABOT, you acknowledge that you have read, understood, and agree to the terms of this Disclaimer. You also consent to the collection, use, and disclosure of your personal information in accordance with our Privacy Policy, as outlined in this Disclaimer. If you do not agree to any provisions of this Disclaimer, you should not access or use our Service. ",
+            "By accessing or registering an account with NeuroBlock, you acknowledge that you have read, understood, and agree to the terms of this Disclaimer. You also consent to the collection, use, and disclosure of your personal information in accordance with our Privacy Policy, as outlined in this Disclaimer. If you do not agree to any provisions of this Disclaimer, you should not access or use our Service. ",
             (0, s.jsx)("br", {}),
             (0, s.jsx)("br", {}),
             "COMPLIANCE WITH TAX OBLIGATIONS",
             (0, s.jsx)("br", {}),
-            "The users of GIGABOT are solely responsible for determining their tax obligations with respect to any transactions conducted through GIGABOT. The owners and contributors of GIGABOT shall not be held responsible for determining the tax implications or obligations associated with the use of GIGABOT's services. ",
+            "The users of NeuroBlock are solely responsible for determining their tax obligations with respect to any transactions conducted through NeuroBlock. The owners and contributors of NeuroBlock shall not be held responsible for determining the tax implications or obligations associated with the use of NeuroBlock's services. ",
             (0, s.jsx)("br", {}),
             (0, s.jsx)("br", {}),
             "ARBITRATION ",
             (0, s.jsx)("br", {}),
-            "By using GIGABOT's services, the user agrees to resolve any dispute arising from or related to GIGABOT or this disclaimer through binding arbitration, except for disputes arising from copyrights, logos, trademarks, trade names, trade secrets, or patents. The arbitration shall be conducted in accordance with the rules of the American Arbitration Association, and the award rendered by the arbitrator(s) shall be binding and final. Each party shall bear their own expenses, costs, and attorney's fees incurred in the arbitration, unless otherwise provided by applicable law.",
+            "By using NeuroBlock's services, the user agrees to resolve any dispute arising from or related to NeuroBlock or this disclaimer through binding arbitration, except for disputes arising from copyrights, logos, trademarks, trade names, trade secrets, or patents. The arbitration shall be conducted in accordance with the rules of the American Arbitration Association, and the award rendered by the arbitrator(s) shall be binding and final. Each party shall bear their own expenses, costs, and attorney's fees incurred in the arbitration, unless otherwise provided by applicable law.",
           ],
         });
       }
       let u = [
-        {
-          title: "Products",
-          links: [
-            { name: "GigaTrader", url: "https://t.me/OfficialGigaTraderBot" },
-            { name: "GigaSignals", url: "https://t.me/GigaSignalsBot" },
-            { name: "GigaLeague", url: "https://t.me/OfficialGigaLeagueBot" },
-          ],
-        },
+        
         {
           title: "Connect",
           links: [
-            { name: "Telegram", url: "https://t.me/GigaBotsCommunity" },
-            { name: "Twitter", url: "https://x.com/Gigabots_ai" },
-          ],
-        },
-        {
-          title: "Learn",
-          links: [
+            { name: "Telegram", url: "https://t.me/" },
+            { name: "Twitter", url: "https://x.com/" },
             { name: "Docs", url: "https://docs.gigabots.ai" },
-            { name: "Medium", url: "https://medium.com/gigabots" },
           ],
         },
       ];
@@ -437,7 +411,7 @@
                         children: [
                           (0, s.jsx)(a.default, {
                             src: "/footer-logo.svg",
-                            alt: "GigaBots Icon",
+                            alt: "NeuroBlock AI Icon",
                             width: 66,
                             height: 66,
                           }),
@@ -460,7 +434,7 @@
                           (0, s.jsx)("p", {
                             className: "mt-20 text-gray-400",
                             children:
-                              "\xa9 2024 GIGABOTS. All rights reserved.",
+                              "\xa9 2024 NeuroBlock AI. All rights reserved.",
                           }),
                         ],
                       }),
@@ -772,7 +746,7 @@
                         src: "/logo.svg",
                         width: 145,
                         height: 16,
-                        alt: "GIGABOTS",
+                        alt: "NeuroBlock AI",
                       }),
                     }),
                     (0, s.jsxs)("div", {
@@ -780,53 +754,25 @@
                         "flex-grow flex items-center justify-center space-x-8 lg:hidden",
                       children: [
                         (0, s.jsx)(c, {
-                          title: "Products",
+                          title: "Product",
                           links: [
                             {
-                              href: "https://t.me/OfficialGigaTraderBot",
-                              label: "GigaTrader",
-                            },
-                            {
-                              href: "https://t.me/GigaSignalsBot",
-                              label: "GigaSignals",
+                              href: "https://docs.gigabots.ai",
+                              label: "About Platform",
                             },
                             { href: "#", label: "GigaVault", comingSoon: !0 },
                           ],
-                          nestedDropdown: {
-                            href: "#",
-                            label: "GigaLeague",
-                            links: [
-                              {
-                                href: "https://gigabot.webflow.io/league",
-                                label: "About",
-                              },
-                              {
-                                href: "https://gigabot.webflow.io/league/rankings",
-                                label: "Rankings",
-                              },
-                            ],
-                          },
                         }),
                         (0, s.jsx)(c, {
                           title: "Connect",
                           links: [
                             {
-                              href: "https://t.me/GigaBotsCommunity",
+                              href: "https://t.me/",
                               label: "Telegram",
                             },
                             {
-                              href: "https://x.com/Gigabots_ai",
+                              href: "https://x.com/",
                               label: "Twitter",
-                            },
-                          ],
-                        }),
-                        (0, s.jsx)(c, {
-                          title: "Learn",
-                          links: [
-                            { href: "https://docs.gigabots.ai", label: "Docs" },
-                            {
-                              href: "https://medium.com/gigabots",
-                              label: "Medium",
                             },
                           ],
                         }),
@@ -835,10 +781,8 @@
                     (0, s.jsxs)("div", {
                       className: "flex gap-6 lg:hidden",
                       children: [
-                        (0, s.jsx)(n.PrimaryButton, { children: "Buy GIGA" }),
-                        (0, s.jsx)(n.SecondaryButton, {
-                          children: "Start Trading",
-                        }),
+                        (0, s.jsx)(n.PrimaryButton, { children: "Buy NUBAI" }),
+                        
                       ],
                     }),
                     (0, s.jsx)("div", {
@@ -879,17 +823,7 @@
                         children: [
                           (0, s.jsx)(u, {
                             title: "Products",
-                            links: [
-                              {
-                                href: "https://t.me/OfficialGigaTraderBot",
-                                label: "GigaTrader",
-                              },
-                              {
-                                href: "https://t.me/GigaSignalsBot",
-                                label: "GigaSignals",
-                              },
-                              { href: "#", label: "GigaVault", comingSoon: !0 },
-                            ],
+                            
                             nestedDropdown: {
                               href: "/giga-league",
                               label: "GigaLeague",
@@ -909,25 +843,16 @@
                             title: "Connect",
                             links: [
                               {
-                                href: "https://t.me/GigaBotsCommunity",
+                                href: "https://t.me/",
                                 label: "Telegram",
                               },
                               {
-                                href: "https://x.com/Gigabots_ai",
+                                href: "https://x.com/",
                                 label: "Twitter",
                               },
-                            ],
-                          }),
-                          (0, s.jsx)(u, {
-                            title: "Learn",
-                            links: [
                               {
                                 href: "https://docs.gigabots.ai",
                                 label: "Docs",
-                              },
-                              {
-                                href: "https://medium.com/gigabots",
-                                label: "Medium",
                               },
                             ],
                           }),
@@ -936,11 +861,7 @@
                             children: [
                               (0, s.jsx)(n.PrimaryButton, {
                                 className: "lg:w-full",
-                                children: "Buy GIGA",
-                              }),
-                              (0, s.jsx)(n.SecondaryButton, {
-                                className: "lg:w-full",
-                                children: "Start Trading",
+                                children: "Buy NUBAI",
                               }),
                             ],
                           }),
