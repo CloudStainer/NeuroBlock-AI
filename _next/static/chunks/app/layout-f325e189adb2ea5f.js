@@ -428,22 +428,6 @@
                             height: 66,
                           }),
                           (0, s.jsxs)("p", {
-                            className: "text-gray-400 mt-4 md:text-left",
-                            children: [
-                              "By accessing our services, you accept our",
-                              " ",
-                              (0, s.jsx)("span", {
-                                onClick: () => t(!0),
-                                className:
-                                  "text-primary underline cursor-pointer",
-                                children:
-                                  "Terms of Service and Privacy Policy.",
-                              }),
-                              " ",
-                              "While our tools are provided free of charge, please note that each transaction incurs a 0.5-1% fee.",
-                            ],
-                          }),
-                          (0, s.jsx)("p", {
                             className: "mt-20 text-gray-400",
                             children:
                               "\xa9 2024 NeuroBlock. All rights reserved.",
